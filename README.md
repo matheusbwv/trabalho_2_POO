@@ -1,1 +1,1 @@
-# trabalho_2_POO
+# trabalho de Programação orientada a objetos
