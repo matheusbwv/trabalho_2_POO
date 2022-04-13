@@ -1,17 +1,27 @@
 // 1ª questão:
 
-const Prompt = require("prompt-sync")();
+// import { SourceMap } from "module";
 
-    let num1 = 1;
-    let num2 = 4;
-    let soma = 0;
+// const Prompt = require("prompt-sync")();
 
-
-    for (let i = num1; i <= num2; i++) {
-        soma = soma + i;
+function sum(num1:number,num2:number) {
+    let n1 = Number(num1)
+    let Soma = 0 -n1;
+    if(num1 < 0){
+        console.log('Os numeros não podem ser negativos, tente novamente !')
+    }else if(num2 < 0){
+        console.log('os numeros não podem ser negativos tente novamente')
+    }else{
+        for (let i = n1; i< num2; i++){
+            Soma += i
+        }
+        console.log(Soma);
     }
+}
+sum(5, 10);
 
-    console.log(soma);
+
+
 
 
 
