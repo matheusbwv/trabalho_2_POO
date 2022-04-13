@@ -19,7 +19,8 @@ const Prompt = require("prompt-sync")();
     }
 
     console.log(soma);
-}
+
+
 
 
 // 2ª questão:
